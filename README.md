@@ -121,9 +121,13 @@ DATA_DIR = "./instacart"
 ## 📁 Repository Structure  
 
 ├── notebooks/
+
 │ └── instacart_eda.ipynb
+
 ├── instacart/ (dataset folder - not included in repo)
+
 ├── README.md
+
 └── requirements.txt
 
 ---
