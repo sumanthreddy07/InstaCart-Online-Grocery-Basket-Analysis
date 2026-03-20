@@ -68,7 +68,7 @@ The first notebook focuses on comprehensive EDA, including:
 - Cumulative coverage curve (long-tail analysis)
 - Percentage of products needed to cover 50%, 80%, 90%, 95% of transactions
 
-### 7️User-Level Analysis
+### 7User-Level Analysis
 - Orders per user distribution
 - Average basket size per user
 - Average reorder ratio per user
