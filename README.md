@@ -87,6 +87,62 @@ The first notebook focuses on comprehensive EDA, including:
 
 ---
 
+## ❓ Research Question Formation
+
+Based on the EDA insights, we design three research questions to move from **pattern discovery → context analysis → predictive usefulness**.
+
+### RQ1: Stability of Association Rules
+- Do co-purchase patterns remain stable under different support thresholds?
+- How does representation (product vs aisle level) affect discovered rules?
+- Are the learned rules robust or sensitive to parameter choices?
+
+### RQ2: Temporal Variation in Co-Purchase Patterns
+- How do co-purchase patterns vary across day of week and time of day?
+- Are weekday and weekend shopping behaviors different?
+- How different are temporal rule sets compared to global patterns?
+
+### RQ3: Popularity vs Meaningful Relationships in Prediction
+- Do association rules provide predictive value beyond simple popularity?
+- Can they accurately predict future purchases?
+- Does incorporating temporal behavior (sequential transitions) improve recommendations?
+
+---
+
+## 🔗 Motivation from EDA
+
+The research questions are directly motivated by the observed data patterns:
+
+- Strong **long-tail distribution** → suggests popularity may dominate recommendations  
+- High **reorder behavior** → indicates habitual purchasing patterns  
+- Temporal variation (hour/day) → suggests behavior is context-dependent  
+- Skewed basket sizes → impacts rule stability and sparsity  
+
+---
+
+## 🧭 Research Direction
+
+The project follows a structured progression:
+
+- **RQ1 → Pattern Stability:**  
+  Understand how reliable association rules are  
+
+- **RQ2 → Context Sensitivity:**  
+  Evaluate how patterns change across time  
+
+- **RQ3 → Practical Usefulness:**  
+  Test whether these patterns help in real prediction tasks  
+
+---
+
+## 📊 Expected Contributions
+
+- Identify whether association rules reflect **true relationships or popularity bias**  
+- Understand how **time affects shopping behavior**  
+- Evaluate whether **temporal models improve recommendation quality**  
+- Provide insights into building **more effective recommendation systems**
+
+---
+
 ## ⚙️ How to Run
 
 1. Clone the repository:
